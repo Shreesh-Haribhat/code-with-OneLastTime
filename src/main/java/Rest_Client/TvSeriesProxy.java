@@ -18,6 +18,7 @@ public interface TvSeriesProxy {
     public series getTvSeriesByID(@PathParam("id") int id);
 
     //https://api.tvmaze.com/search/people?q=lauren
+    //Hi there
     @GET
     @Path("search/people")
     public List<series> getByNamr(@QueryParam("q") String name);
